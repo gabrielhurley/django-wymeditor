@@ -1,4 +1,4 @@
-from distutils.core import setup, find_packages
+from distutils.core import setup
 
 setup(name='django-wymeditor',
     version='1.0',
@@ -7,7 +7,7 @@ setup(name='django-wymeditor',
     author_email='gabriel@strikeawe.com',
     url='https://github.com/gabrielhurley/django-wymeditor',
     download_url='git://github.com/gabrielhurley/django-wymeditor.git',
-    packages=find_packages(),
+    packages=['wymeditor',],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
