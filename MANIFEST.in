@@ -1,0 +1,5 @@
+include AUTHORS.txt
+include LICENSE
+include MANIFEST.in
+include README.rst
+recursive-include wymeditor/static *
